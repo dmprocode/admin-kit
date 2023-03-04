@@ -43,6 +43,14 @@ const Widget = ({ type }) => {
         icon: <BalanceIcon className="icon" />,
       };
       break;
+    case "analysis":
+      data = {
+        title: "BALANCE",
+        link: "View net Balance",
+        isMoney: true,
+        icon: <BalanceIcon className="icon" />,
+      };
+      break;
     default:
       break;
   }
